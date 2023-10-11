@@ -21,7 +21,7 @@ jobs:
 
     name: Kubernetes ${{ matrix.node-version }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: use node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3

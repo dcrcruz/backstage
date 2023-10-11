@@ -26,7 +26,7 @@ jobs:
 
     name: Install ${{ matrix.node-version }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: use node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
@@ -57,7 +57,7 @@ jobs:
 
     name: Verify ${{ matrix.node-version }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: use node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
@@ -186,7 +186,7 @@ jobs:
       INTEGRATION_TEST_AZURE_TOKEN: ${{ secrets.INTEGRATION_TEST_AZURE_TOKEN }}
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: fetch branch master
         run: git fetch origin master
 

@@ -16,6 +16,13 @@
 
 export interface Config {
   app?: {
+    routes?: {
+      /**
+       * @deepVisibility frontend
+       */
+      bindings?: { [externalRouteRefId: string]: string };
+    };
+
     /**
      * @deepVisibility frontend
      */

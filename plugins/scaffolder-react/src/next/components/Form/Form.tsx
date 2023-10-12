@@ -19,11 +19,11 @@ import React from 'react';
 import { PropsWithChildren } from 'react';
 import { FieldTemplate } from './FieldTemplate';
 import { DescriptionFieldTemplate } from './DescriptionFieldTemplate';
+import { Form as FormV5 } from '@rjsf/material-ui-v5';
 
-// TODO(blam): We require here, as the types in this package depend on @rjsf/core explicitly
-// which is what we're using here as the default types, it needs to depend on @rjsf/core-v5 because
-// of the re-writing we're doing. Once we've migrated, we can import this the exact same as before.
-const WrappedForm = withTheme(require('@rjsf/material-ui-v5').Theme);
+// todo(blam): Once scaffolder is shipped and we have one version
+// this error message will go away :tada:
+const WrappedForm = withTheme(FormV5 as any);
 
 /**
  * The Form component

@@ -29,8 +29,9 @@ import React from 'react';
 import { Widget } from './types';
 import { withTheme } from '@rjsf/core-v5';
 import validator from '@rjsf/validator-ajv8';
+import { Theme as ThemeV5 } from '@rjsf/material-ui-v5';
 
-const Form = withTheme(require('@rjsf/material-ui-v5').Theme);
+const Form = withTheme(ThemeV5);
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({

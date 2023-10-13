@@ -192,11 +192,11 @@ export function TemplateEditorForm(props: TemplateEditorFormProps) {
         <ErrorBoundary invalidator={steps} setErrorText={setErrorText}>
           <MultistepJsonForm
             steps={steps}
-            fields={fields}
+            fields={fields as any}
             formData={data}
             onChange={e => onUpdate(e.formData)}
             onReset={() => onUpdate({})}
-            finishButtonLabel={onDryRun && 'Try iIt'}
+            finishButtonLabel={onDryRun && 'Try It'}
             onFinish={onDryRun && (() => onDryRun(data))}
             layouts={layouts}
           />

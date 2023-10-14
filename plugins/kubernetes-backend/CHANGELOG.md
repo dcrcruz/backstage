@@ -1,5 +1,33 @@
 # @backstage/plugin-kubernetes-backend
 
+## 0.13.0-next.3
+
+### Minor Changes
+
+- ae943c3bb1: **BREAKING** Allow passing undefined `labelSelector` to `KubernetesFetcher`
+
+  `KubernetesFetch` no longer auto-adds `labelSelector` when empty string was passed.
+  This is only applicable if you have custom ObjectProvider implementation, as build-in `KubernetesFanOutHandler` already does this
+
+### Patch Changes
+
+- 9101c0d1b6: Updated dependency `@kubernetes/client-node` to `0.19.0`.
+- Updated dependencies
+  - @backstage/backend-common@0.19.8-next.3
+  - @backstage/plugin-kubernetes-common@0.7.0-next.2
+  - @backstage/plugin-auth-node@0.4.0-next.3
+  - @backstage/backend-plugin-api@0.6.6-next.3
+  - @backstage/catalog-client@1.4.5-next.0
+  - @backstage/catalog-model@1.4.3-next.0
+  - @backstage/config@1.1.1-next.0
+  - @backstage/errors@1.2.3-next.0
+  - @backstage/integration-aws-node@0.1.7-next.0
+  - @backstage/types@1.1.1
+  - @backstage/plugin-catalog-node@1.4.7-next.3
+  - @backstage/plugin-kubernetes-node@0.1.0-next.1
+  - @backstage/plugin-permission-common@0.7.9-next.0
+  - @backstage/plugin-permission-node@0.7.17-next.3
+
 ## 0.12.3-next.2
 
 ### Patch Changes

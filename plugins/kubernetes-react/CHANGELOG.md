@@ -1,5 +1,19 @@
 # @backstage/plugin-kubernetes-react
 
+## 0.1.0-next.2
+
+### Patch Changes
+
+- 4262e12921: Handle mixed decimals and bigint when calculating k8s resource usage
+- 9a1fce352e: Updated dependency `@testing-library/jest-dom` to `^6.0.0`.
+- Updated dependencies
+  - @backstage/core-components@0.13.6-next.3
+  - @backstage/plugin-kubernetes-common@0.7.0-next.2
+  - @backstage/core-plugin-api@1.7.0-next.2
+  - @backstage/catalog-model@1.4.3-next.0
+  - @backstage/errors@1.2.3-next.0
+  - @backstage/types@1.1.1
+
 ## 0.1.0-next.1
 
 ### Patch Changes

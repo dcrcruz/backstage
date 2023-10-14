@@ -1,5 +1,32 @@
 # @backstage/plugin-techdocs
 
+## 1.8.0-next.3
+
+### Minor Changes
+
+- 27740caa2d: Added experimental support for declarative integration via the `/alpha` subpath.
+
+### Patch Changes
+
+- 0296f272b4: The `spec.lifecycle' field in entities will now always be rendered as a string.
+- 9a1fce352e: Updated dependency `@testing-library/jest-dom` to `^6.0.0`.
+- f95af4e540: Updated dependency `@testing-library/dom` to `^9.0.0`.
+- 9468a67b92: Added support for React 18. The new `createRoot` API from `react-dom/client` will now be used if present.
+- Updated dependencies
+  - @backstage/frontend-plugin-api@0.2.0-next.3
+  - @backstage/core-components@0.13.6-next.3
+  - @backstage/core-plugin-api@1.7.0-next.2
+  - @backstage/integration-react@1.1.20-next.3
+  - @backstage/plugin-catalog-react@1.8.5-next.3
+  - @backstage/plugin-search-react@1.7.1-next.3
+  - @backstage/plugin-techdocs-react@1.1.12-next.3
+  - @backstage/catalog-model@1.4.3-next.0
+  - @backstage/config@1.1.1-next.0
+  - @backstage/errors@1.2.3-next.0
+  - @backstage/integration@1.7.1-next.1
+  - @backstage/theme@0.4.3-next.0
+  - @backstage/plugin-search-common@1.2.7-next.0
+
 ## 1.7.1-next.2
 
 ### Patch Changes

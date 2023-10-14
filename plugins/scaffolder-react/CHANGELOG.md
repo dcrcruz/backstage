@@ -1,5 +1,23 @@
 # @backstage/plugin-scaffolder-react
 
+## 1.5.6-next.3
+
+### Patch Changes
+
+- 9a1fce352e: Updated dependency `@testing-library/jest-dom` to `^6.0.0`.
+- f95af4e540: Updated dependency `@testing-library/dom` to `^9.0.0`.
+- Updated dependencies
+  - @backstage/core-components@0.13.6-next.3
+  - @backstage/core-plugin-api@1.7.0-next.2
+  - @backstage/version-bridge@1.0.6-next.0
+  - @backstage/plugin-catalog-react@1.8.5-next.3
+  - @backstage/catalog-client@1.4.5-next.0
+  - @backstage/catalog-model@1.4.3-next.0
+  - @backstage/errors@1.2.3-next.0
+  - @backstage/theme@0.4.3-next.0
+  - @backstage/types@1.1.1
+  - @backstage/plugin-scaffolder-common@1.4.2-next.0
+
 ## 1.5.6-next.2
 
 ### Patch Changes

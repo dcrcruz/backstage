@@ -1,5 +1,16 @@
 # @backstage/core-plugin-api
 
+## 1.7.0-next.2
+
+### Patch Changes
+
+- 9a1fce352e: Updated dependency `@testing-library/jest-dom` to `^6.0.0`.
+- f95af4e540: Updated dependency `@testing-library/dom` to `^9.0.0`.
+- Updated dependencies
+  - @backstage/version-bridge@1.0.6-next.0
+  - @backstage/config@1.1.1-next.0
+  - @backstage/types@1.1.1
+
 ## 1.7.0-next.1
 
 ### Patch Changes

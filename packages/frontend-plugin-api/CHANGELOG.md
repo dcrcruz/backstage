@@ -1,5 +1,16 @@
 # @backstage/frontend-plugin-api
 
+## 0.2.0-next.3
+
+### Patch Changes
+
+- 2ecd33618a: Plugins can now be assigned `routes` and `externalRoutes` when created.
+- 9a1fce352e: Updated dependency `@testing-library/jest-dom` to `^6.0.0`.
+- c1e9ca6500: Added `createExtensionOverrides` which can be used to install a collection of extensions in an app that will replace any existing ones.
+- Updated dependencies
+  - @backstage/core-plugin-api@1.7.0-next.2
+  - @backstage/types@1.1.1
+
 ## 0.2.0-next.2
 
 ### Minor Changes

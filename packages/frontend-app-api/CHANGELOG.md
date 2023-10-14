@@ -1,5 +1,29 @@
 # @backstage/frontend-app-api
 
+## 0.2.0-next.3
+
+### Minor Changes
+
+- d7c5d80c57: The hidden `'root'` extension has been removed and has instead been made an input of the `'core'` extension. The checks for rejecting configuration of the `'root'` extension to rejects configuration of the `'core'` extension instead.
+- d920b8c343: Added support for installing `ExtensionOverrides` via `createApp` options. As part of this change the `plugins` option has been renamed to `features`, and the `pluginLoader` has been renamed to `featureLoader`.
+
+### Patch Changes
+
+- 68ffb9e67d: The app will now reject any extensions that attach to nonexistent inputs.
+- 1e60a9c3a5: Fixed an issue preventing the routing system to match subroutes
+- 2ecd33618a: Added the `bindRoutes` option to `createApp`.
+- 9a1fce352e: Updated dependency `@testing-library/jest-dom` to `^6.0.0`.
+- Updated dependencies
+  - @backstage/core-app-api@1.11.0-next.3
+  - @backstage/frontend-plugin-api@0.2.0-next.3
+  - @backstage/core-components@0.13.6-next.3
+  - @backstage/core-plugin-api@1.7.0-next.2
+  - @backstage/version-bridge@1.0.6-next.0
+  - @backstage/plugin-graphiql@0.2.55-next.3
+  - @backstage/config@1.1.1-next.0
+  - @backstage/theme@0.4.3-next.0
+  - @backstage/types@1.1.1
+
 ## 0.2.0-next.2
 
 ### Minor Changes

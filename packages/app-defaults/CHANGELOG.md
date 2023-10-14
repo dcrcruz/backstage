@@ -1,5 +1,17 @@
 # @backstage/app-defaults
 
+## 1.4.4-next.3
+
+### Patch Changes
+
+- 9a1fce352e: Updated dependency `@testing-library/jest-dom` to `^6.0.0`.
+- Updated dependencies
+  - @backstage/core-app-api@1.11.0-next.3
+  - @backstage/core-components@0.13.6-next.3
+  - @backstage/core-plugin-api@1.7.0-next.2
+  - @backstage/plugin-permission-react@0.4.16-next.2
+  - @backstage/theme@0.4.3-next.0
+
 ## 1.4.4-next.2
 
 ### Patch Changes

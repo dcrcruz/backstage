@@ -1,5 +1,22 @@
 # @backstage/plugin-newrelic-dashboard
 
+## 0.3.0-next.3
+
+### Minor Changes
+
+- e605ea4906: Add storybook for newrelic-dashboard plugin.
+
+### Patch Changes
+
+- 9a1fce352e: Updated dependency `@testing-library/jest-dom` to `^6.0.0`.
+- 61d55942ae: Fix the styles for NewRelicDashboard, add more responsiveness
+- Updated dependencies
+  - @backstage/core-components@0.13.6-next.3
+  - @backstage/core-plugin-api@1.7.0-next.2
+  - @backstage/plugin-catalog-react@1.8.5-next.3
+  - @backstage/catalog-model@1.4.3-next.0
+  - @backstage/errors@1.2.3-next.0
+
 ## 0.3.0-next.2
 
 ### Minor Changes

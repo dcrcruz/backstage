@@ -1,5 +1,19 @@
 # @backstage/plugin-auth-node
 
+## 0.4.0-next.3
+
+### Patch Changes
+
+- ae34255836: Adding optional audience parameter to OAuthState type declaration
+- Updated dependencies
+  - @backstage/backend-common@0.19.8-next.3
+  - @backstage/backend-plugin-api@0.6.6-next.3
+  - @backstage/catalog-client@1.4.5-next.0
+  - @backstage/catalog-model@1.4.3-next.0
+  - @backstage/config@1.1.1-next.0
+  - @backstage/errors@1.2.3-next.0
+  - @backstage/types@1.1.1
+
 ## 0.4.0-next.2
 
 ### Minor Changes

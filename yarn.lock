@@ -10258,7 +10258,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@backstage/version-bridge@^1.0.3, @backstage/version-bridge@^1.0.5, @backstage/version-bridge@workspace:^, @backstage/version-bridge@workspace:packages/version-bridge":
+"@backstage/version-bridge@npm:^1.0.3, @backstage/version-bridge@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "@backstage/version-bridge@npm:1.0.5"
+  dependencies:
+    "@types/react": ^16.13.1 || ^17.0.0
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0
+    react-dom: ^16.13.1 || ^17.0.0
+    react-router-dom: 6.0.0-beta.0 || ^6.3.0
+  checksum: 8430860bcd0eac3ec57fda30eb5b1a4d895c75cb5ae9609b79bb1264eee7a4f39169122ce0e71f5fcade8f4d0cfe9bc3dbf6e0b9a2adc7fafef2bbbde95545f8
+  languageName: node
+  linkType: hard
+
+"@backstage/version-bridge@workspace:^, @backstage/version-bridge@workspace:packages/version-bridge":
   version: 0.0.0-use.local
   resolution: "@backstage/version-bridge@workspace:packages/version-bridge"
   dependencies:

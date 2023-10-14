@@ -1,5 +1,13 @@
 # @backstage/create-app
 
+## 0.5.6-next.3
+
+### Patch Changes
+
+- 9864f263ba: Bump dev dependencies `lerna@7.3.0` on the template
+- Updated dependencies
+  - @backstage/cli-common@0.1.13-next.0
+
 ## 0.5.6-next.2
 
 ### Patch Changes

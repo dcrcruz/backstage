@@ -1,5 +1,28 @@
 # @backstage/plugin-catalog
 
+## 1.14.0-next.3
+
+### Patch Changes
+
+- 0296f272b4: The `spec.lifecycle' field in entities will now always be rendered as a string.
+- 9a1fce352e: Updated dependency `@testing-library/jest-dom` to `^6.0.0`.
+- f95af4e540: Updated dependency `@testing-library/dom` to `^9.0.0`.
+- Updated dependencies
+  - @backstage/frontend-plugin-api@0.2.0-next.3
+  - @backstage/core-components@0.13.6-next.3
+  - @backstage/core-plugin-api@1.7.0-next.2
+  - @backstage/integration-react@1.1.20-next.3
+  - @backstage/plugin-catalog-react@1.8.5-next.3
+  - @backstage/plugin-search-react@1.7.1-next.3
+  - @backstage/catalog-client@1.4.5-next.0
+  - @backstage/catalog-model@1.4.3-next.0
+  - @backstage/errors@1.2.3-next.0
+  - @backstage/theme@0.4.3-next.0
+  - @backstage/types@1.1.1
+  - @backstage/plugin-catalog-common@1.0.17-next.0
+  - @backstage/plugin-scaffolder-common@1.4.2-next.0
+  - @backstage/plugin-search-common@1.2.7-next.0
+
 ## 1.14.0-next.2
 
 ### Patch Changes

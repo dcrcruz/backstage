@@ -1,5 +1,21 @@
 # @backstage/plugin-bazaar
 
+## 0.2.17-next.3
+
+### Patch Changes
+
+- 9a1fce352e: Updated dependency `@testing-library/jest-dom` to `^6.0.0`.
+- Updated dependencies
+  - @backstage/cli@0.23.0-next.3
+  - @backstage/plugin-catalog@1.14.0-next.3
+  - @backstage/core-components@0.13.6-next.3
+  - @backstage/core-plugin-api@1.7.0-next.2
+  - @backstage/plugin-catalog-react@1.8.5-next.3
+  - @backstage/catalog-client@1.4.5-next.0
+  - @backstage/catalog-model@1.4.3-next.0
+  - @backstage/errors@1.2.3-next.0
+  - @backstage/theme@0.4.3-next.0
+
 ## 0.2.17-next.2
 
 ### Patch Changes

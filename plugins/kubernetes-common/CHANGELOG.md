@@ -1,5 +1,17 @@
 # @backstage/plugin-kubernetes-common
 
+## 0.7.0-next.2
+
+### Patch Changes
+
+- 9101c0d1b6: Updated dependency `@kubernetes/client-node` to `0.19.0`.
+- Updated dependencies
+  - @backstage/core-plugin-api@1.7.0-next.2
+  - @backstage/catalog-model@1.4.3-next.0
+  - @backstage/errors@1.2.3-next.0
+  - @backstage/types@1.1.1
+  - @backstage/plugin-permission-common@0.7.9-next.0
+
 ## 0.7.0-next.1
 
 ### Patch Changes

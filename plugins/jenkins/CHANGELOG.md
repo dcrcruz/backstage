@@ -1,5 +1,27 @@
 # @backstage/plugin-jenkins
 
+## 0.9.0-next.3
+
+### Minor Changes
+
+- 411896faf9: Added JobRunTable Component.
+  Added new Route and extended Api to get buildJobs.
+  Actions column has a new icon button, clicking on which takes us to page where we
+  can see all the job runs.
+
+### Patch Changes
+
+- 9a1fce352e: Updated dependency `@testing-library/jest-dom` to `^6.0.0`.
+- f95af4e540: Updated dependency `@testing-library/dom` to `^9.0.0`.
+- Updated dependencies
+  - @backstage/core-components@0.13.6-next.3
+  - @backstage/core-plugin-api@1.7.0-next.2
+  - @backstage/plugin-catalog-react@1.8.5-next.3
+  - @backstage/catalog-model@1.4.3-next.0
+  - @backstage/errors@1.2.3-next.0
+  - @backstage/theme@0.4.3-next.0
+  - @backstage/plugin-jenkins-common@0.1.20-next.0
+
 ## 0.8.7-next.2
 
 ### Patch Changes

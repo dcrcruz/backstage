@@ -1,5 +1,20 @@
 # @backstage/plugin-airbrake
 
+## 0.3.25-next.3
+
+### Patch Changes
+
+- 9a1fce352e: Updated dependency `@testing-library/jest-dom` to `^6.0.0`.
+- f95af4e540: Updated dependency `@testing-library/dom` to `^9.0.0`.
+- Updated dependencies
+  - @backstage/core-components@0.13.6-next.3
+  - @backstage/dev-utils@1.0.22-next.3
+  - @backstage/core-plugin-api@1.7.0-next.2
+  - @backstage/test-utils@1.4.4-next.3
+  - @backstage/plugin-catalog-react@1.8.5-next.3
+  - @backstage/catalog-model@1.4.3-next.0
+  - @backstage/theme@0.4.3-next.0
+
 ## 0.3.25-next.2
 
 ### Patch Changes

@@ -1,5 +1,23 @@
 # @backstage/plugin-catalog-backend-module-github
 
+## 0.4.4-next.3
+
+### Patch Changes
+
+- 4f16e60e6d: Request slightly smaller pages of data from GitHub
+- Updated dependencies
+  - @backstage/backend-common@0.19.8-next.3
+  - @backstage/backend-plugin-api@0.6.6-next.3
+  - @backstage/backend-tasks@0.5.11-next.3
+  - @backstage/catalog-client@1.4.5-next.0
+  - @backstage/catalog-model@1.4.3-next.0
+  - @backstage/config@1.1.1-next.0
+  - @backstage/integration@1.7.1-next.1
+  - @backstage/plugin-catalog-backend@1.14.0-next.3
+  - @backstage/plugin-catalog-common@1.0.17-next.0
+  - @backstage/plugin-catalog-node@1.4.7-next.3
+  - @backstage/plugin-events-node@0.2.15-next.3
+
 ## 0.4.4-next.2
 
 ### Patch Changes

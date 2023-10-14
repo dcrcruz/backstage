@@ -1,5 +1,26 @@
 # @backstage/plugin-kubernetes
 
+## 0.11.0-next.3
+
+### Patch Changes
+
+- 9101c0d1b6: Updated dependency `@kubernetes/client-node` to `0.19.0`.
+- 9a1fce352e: Updated dependency `@testing-library/jest-dom` to `^6.0.0`.
+- f95af4e540: Updated dependency `@testing-library/dom` to `^9.0.0`.
+- b0aca1a798: Updated dependency `xterm-addon-attach` to `^0.9.0`.
+  Updated dependency `xterm-addon-fit` to `^0.8.0`.
+- Updated dependencies
+  - @backstage/core-components@0.13.6-next.3
+  - @backstage/plugin-kubernetes-react@0.1.0-next.2
+  - @backstage/plugin-kubernetes-common@0.7.0-next.2
+  - @backstage/core-plugin-api@1.7.0-next.2
+  - @backstage/plugin-catalog-react@1.8.5-next.3
+  - @backstage/catalog-model@1.4.3-next.0
+  - @backstage/config@1.1.1-next.0
+  - @backstage/errors@1.2.3-next.0
+  - @backstage/theme@0.4.3-next.0
+  - @backstage/types@1.1.1
+
 ## 0.11.0-next.2
 
 ### Patch Changes

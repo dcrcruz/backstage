@@ -1,5 +1,23 @@
 # @backstage/backend-common
 
+## 0.19.8-next.3
+
+### Patch Changes
+
+- 9101c0d1b6: Updated dependency `@kubernetes/client-node` to `0.19.0`.
+- 2a40cd46a8: Adds the optional flag for useRedisSets for the Redis cache to the config.
+- Updated dependencies
+  - @backstage/backend-app-api@0.5.6-next.3
+  - @backstage/backend-dev-utils@0.1.2-next.0
+  - @backstage/backend-plugin-api@0.6.6-next.3
+  - @backstage/cli-common@0.1.13-next.0
+  - @backstage/config@1.1.1-next.0
+  - @backstage/config-loader@1.5.1-next.1
+  - @backstage/errors@1.2.3-next.0
+  - @backstage/integration@1.7.1-next.1
+  - @backstage/integration-aws-node@0.1.7-next.0
+  - @backstage/types@1.1.1
+
 ## 0.19.8-next.2
 
 ### Patch Changes

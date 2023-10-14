@@ -1,5 +1,19 @@
 # @backstage/core-app-api
 
+## 1.11.0-next.3
+
+### Patch Changes
+
+- 29e4d8b76b: Fixed bug in `AppRouter` to determine the correct `signOutTargetUrl` if `app.baseUrl` contains a `basePath`
+- 9a1fce352e: Updated dependency `@testing-library/jest-dom` to `^6.0.0`.
+- f95af4e540: Updated dependency `@testing-library/dom` to `^9.0.0`.
+- f1b349cfba: Fixed a bug in `TranslationApi` implementation where in some cases it wouldn't notify subscribers of language changes.
+- Updated dependencies
+  - @backstage/core-plugin-api@1.7.0-next.2
+  - @backstage/version-bridge@1.0.6-next.0
+  - @backstage/config@1.1.1-next.0
+  - @backstage/types@1.1.1
+
 ## 1.11.0-next.2
 
 ### Minor Changes
